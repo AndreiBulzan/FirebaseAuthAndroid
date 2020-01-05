@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewDataActivity">
+
+    <EditText
+        android:id="@+id/textView"
+        android:layout_width="389dp"
+        android:layout_height="478dp"
+        android:layout_marginLeft="25px"
+        android:layout_marginTop="25px"
+        android:layout_marginRight="25px"
+        android:padding="25px"
+        android:text="Your data should appear here" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="209dp"
+        android:layout_height="110dp"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentBottom="true"
+        android:onClick="getNextDoc"
+        android:text="Next" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="199dp"
+        android:layout_height="108dp"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:onClick="delDoc"
+        android:text="Delete" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="377dp"
+        android:layout_height="101dp"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_alignBottom="@id/button"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentBottom="false"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="121dp"
+        android:gravity="center"
+        android:text="TextView" />
+
+</RelativeLayout >
